@@ -8,6 +8,4 @@ This project is to make a one page website by using some of the pictures from th
 * [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
   
 **Images**  
-<img src="./images/logo.svg">
-The size of above picture which is header picture set at (height: 33px; width: 173px;)
 
