@@ -31,14 +31,7 @@
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-@media screen and (max-width: 716px) {
-  .card__description {
-    text-align: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-}
+
 .card__title {
   margin: 0;
   text-overflow: ellipsis;
@@ -59,4 +52,12 @@
 }
 .card__like-button:hover {
   opacity: 50%;
+}
+@media screen and (max-width: 716px) {
+  .card__description {
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 }

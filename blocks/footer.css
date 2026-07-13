@@ -1,11 +1,7 @@
 .footer {
   width: 100%;
 }
-@media screen and (max-width: 716px) {
-  .footer {
-    max-width: 282px;
-  }
-}
+
 .footer__copyright {
   width: 318px;
   color: #545454;
@@ -15,6 +11,9 @@
   height: 18px;
 }
 @media screen and (max-width: 716px) {
+  .footer {
+    max-width: 282px;
+  }
   .footer__copyright {
     height: 14px;
     margin-top: 48px;
