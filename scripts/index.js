@@ -26,4 +26,11 @@ const initialCards = [
 
 ];
 
-console.log(initialCards); 
+
+const profileEditBtn = document.querySelector('#edit-profile-button');
+const profileEditModal = document.querySelector('#profile-edit-modal');
+const modalCloseBtn = profileEditModal.querySelector('#modal-close-button');
+
+profileEditBtn.addEventListener('click', () => { profileEditModal.classList.add('#profile-edit-modal') });
+
+modalCloseBtn.addEventListener('click', () => { profileEditModal.classList.remove('#profile-edit-modal') });
