@@ -5,12 +5,13 @@
   margin-left: 200px;
   margin-right: 200px;
 }
+
 @media screen and (max-width: 716px) {
   .page {
-    margin: auto;
     max-width: 320px;
   }
 }
+
 .page__content {
   display: flex;
   flex-direction: column;
